@@ -1,6 +1,8 @@
-# obesity-check-counts
+# POS-2026-3005: Monitoring Prescribing Of Obesity Pharmacotherapy In Primary Care In England
 
-[View on OpenSAFELY](https://jobs.opensafely.org/repo/https%253A%252F%252Fgithub.com%252Fopensafely%252Fobesity-check-counts)
+[View project description](https://www.opensafely.org/project/pos-2026-3005/)
+
+[View workspace on OpenSAFELY](https://jobs.opensafely.org/repo/https%253A%252F%252Fgithub.com%252Fopensafely%252Fobesity-check-counts)
 
 Details of the purpose and any published outputs from this project can be found at the link above.
 
