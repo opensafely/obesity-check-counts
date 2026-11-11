@@ -27,15 +27,13 @@ codelists = {
 }
 
 for name, codelist in codelists.items():
- 
-    code_count[name] = (
-        clinical_events
-        .where(clinical_events.date.is_during(INTERVAL))
-        .where(clinical_events.snomedct_code.is_in(codelist))
-        .count_for_patient()
-    )
 
     measures.define_measure(
         name=f"{name}_count",
-        numerator=code_count[name]
+        numerator=(
+            clinical_events
+            .where(clinical_events.date.is_during(INTERVAL))
+            .where(clinical_events.snomedct_code.is_in(codelist))
+            .count_for_patient()
+        )
     )
