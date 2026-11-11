@@ -26,8 +26,6 @@ codelists = {
     "blood_glucose": ["774351000000102"]
 }
 
-code_count = {}
-
 for name, codelist in codelists.items():
  
     code_count[name] = (
