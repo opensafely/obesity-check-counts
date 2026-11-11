@@ -1,8 +1,10 @@
 version: '5.0'
 
 actions:
-  generate_dataset:
-    run: ehrql:v1 generate-dataset analysis/dataset_definition.py --output output/dataset.csv.gz
+
+  measures_code_counts:
+    run: ehrql:v1 generate-measures analysis/measures_code_counts.py 
+      --output output/measures/measures_code_counts.csv
     outputs:
-      highly_sensitive:
-        dataset: output/dataset.csv.gz
+      moderately_sensitive:
+        measure_csv: output/measures/measures_code_counts.csv
