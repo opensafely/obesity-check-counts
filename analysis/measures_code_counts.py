@@ -21,7 +21,7 @@ codelists = {
     "obesity_med_declined": ["2386241000000105"],
     "pancreas_cancer": ["2489011000000102"],
     "cataract_operation": ["434215004"],
-    "ambulatory_bp": ["231424100000104"],
+    "ambulatory_bp": ["2314241000000104"],
     "serum_protein": ["1012151000000104"],
     "blood_glucose": ["774351000000102"]
 }
